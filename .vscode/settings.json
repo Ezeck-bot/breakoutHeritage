@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.json": "jsonl",
         "*.inc": "c",
         "assert.h": "c",
         "limits.h": "c",
@@ -15,7 +16,9 @@
         "xutility": "c",
         "codecvt": "c",
         "xlocale": "c",
-        "__locale": "c"
+        "__locale": "c",
+        "new": "cpp"
     },
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "git.ignoreLimitWarning": true
 }
